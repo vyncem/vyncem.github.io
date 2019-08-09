@@ -1,0 +1,4 @@
+<button class="accordion">Section 1</button>
+<div class="panel">
+  <p>aerlingus</p>
+</div>

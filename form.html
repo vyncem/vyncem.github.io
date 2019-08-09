@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+
+<body onload="displayBrief()">
+  <form>
+    <p>EDIT</p>
+    <label class="label">Name:</label>
+    <input class="input" type="text" id="name" value="">
+    <br>
+    <label class="label">Status:</label>
+    <select class='select' id="status"> 
+        <option value="lost">lost</option>
+        <option value="in progress">in progress</option>
+        <option value="complete">complete</option>
+      </select>
+    <br>
+    <label class="label">Due date:</label>
+    <input class="input" type="text" id="duedate" value="">
+    <br><br>
+    <input class="submit-btn form-submit-button" type="submit" value="save">
+  </form>
+</body>
+
+</html>

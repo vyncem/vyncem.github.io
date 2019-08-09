@@ -1,0 +1,125 @@
+
+table, th, td {
+  border: 1px solid #cccccc;
+  text-align: left;
+  font-family: "Arial", serif;
+}
+
+
+th {
+  background-color: rgba(95, 95, 95, 0.93);
+  color: white;
+  font-weight: normal;
+  padding: 12px;
+  text-transform: uppercase;
+  width: 100px;
+}
+
+td {
+  padding: 0px 12px;
+  width: 20%;
+}
+
+table {
+  width: 100%;
+}
+
+.lost {
+  width: 10px;
+  height: 10px;
+  background: red;
+  display: inline-block;
+  border-radius: 10px;
+  margin-right: 4px;
+}
+
+.in-progress {
+  width: 10px;
+  height: 10px;
+  background: yellow;
+  display: inline-block;
+  border-radius: 10px;
+  margin-right: 4px;
+}
+.complete {
+  width: 10px;
+  height: 10px;
+  background: green;
+  display: inline-block;
+  border-radius: 10px;
+  margin-right: 4px;
+}
+
+/*
+
+th {
+  background-color: rgb(107, 205, 243);
+  color: black;
+}
+td, th { 
+  text-align: center
+}
+tr:hover {background-color: #f5f5f5;}*/
+
+
+
+form {
+  width: 500px;
+  margin: 0 auto;
+  padding: 100px 100px;
+}
+
+p {
+  font-size: 25px;
+  text-align: center;
+}
+.input {
+  width: 393px;
+  margin: 0 auto;
+  display: block;
+  height: 23px;
+  border-radius: 4px;
+  -webkit-appearance: none;
+  background-color: rgb(248, 248, 248);
+}
+.select {
+  width: 400px;
+  margin: 0 auto;
+  display: block;
+  height: 30px;
+  border-radius: 4px;
+}
+
+.label {
+  width: 400px;
+  margin: 0 auto;
+  display: block;
+  text-transform: uppercase;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.submit-btn {
+  background: linear-gradient(to left, #ff005c, #ff4c15);
+  margin: 0 auto;
+  display: block;
+  border-radius: 4px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 8px;
+  width: 70px;
+  float: left;
+  margin-right: 10px;
+}
+
+.form-submit-button {
+  float: none;
+}
+
+.container {
+  width: 160px;
+  height: 40px;
+  margin: 8px auto 0px auto;
+}
